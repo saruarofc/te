@@ -1,8 +1,26 @@
 {
-  "name": "telegram-bot",
+  "name": "your-app-name",
   "version": "1.0.0",
-  "main": "bot.js",
+  "description": "Your app description",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
   "dependencies": {
-    "node-telegram-bot-api": "^0.61.0"
-  }
+    "node-telegram-bot-api": "^0.61.0",  // Change the version to match your requirements
+    "express": "^4.17.1",               // Example of another dependency
+    "other-package": "^1.2.3"           // Replace or add the packages you need
+  },
+  "devDependencies": {
+    "some-dev-package": "^2.1.0"        // Example for dev dependencies
+  },
+  "engines": {
+    "node": ">=14.0.0"                  // Adjust to your Node version
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/your-repo.git"
+  },
+  "author": "Your Name",
+  "license": "ISC"
 }
