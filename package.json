@@ -1,23 +1,20 @@
 {
-  "name": "your-project-name",
+  "name": "telegram-bot",
   "version": "1.0.0",
-  "description": "A description of your project",
-  "main": "index.js",
+  "description": "A simple Telegram bot",
+  "main": "bot.js",
   "scripts": {
-    "start": "node app.js",
+    "start": "node bot.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "node",
-    "express"
+    "telegram",
+    "bot"
   ],
   "author": "Your Name",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.7"
+    "node-telegram-bot-api": "^0.61.0"
   },
   "engines": {
     "node": ">=14.0.0"
